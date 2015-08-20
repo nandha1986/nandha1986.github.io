@@ -43,6 +43,16 @@ position: absolute;
 }
 .wip-text{
 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 	font-size: 20px;
 	color: rgb(113,113,113);
+}
+
+.job-title{
+
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 30px;
+
+		color: rgb(113,113,113);
+
 }
