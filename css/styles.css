@@ -46,14 +46,22 @@ position: absolute;
 
 	color: rgb(152,152,152);
 }
-.wip-text{
+
+footer{
 
 
 /*class for the "work in progress text"*/
 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
-	font-size: 20px;
+	font-size: 15px;
+	width: 100%;
 	color: rgb(113,113,113);
+	position: absolute;bottom: 0;
+	text-align: center;
+	margin-bottom: 40px;
+
+
+
 }
 
 .job-title{
@@ -77,4 +85,46 @@ color: rgb(152,152,152);
     width: 475px;
 }
 
+.twitter{
+
+	background-image:url("../img/twitter.png");
+	background-size: 100%;
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	
+
 }
+
+.medium{
+/*since the bg image is 88*88 i have to give bg size as 100% to contain the image 
+in the div*/
+/*display inline help me to place the images next to each other otherwise by 
+default it wraps to next line*/
+
+	background-image:url("../img/medium.png");
+	background-size: 100%;
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}	
+
+.coroflot{
+
+
+	background-image:url("../img/coroflot.png");
+	background-size: 100%;
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	
+}
+
+.social-media{
+
+margin-top: 10px;
+
+
+}
+
+
