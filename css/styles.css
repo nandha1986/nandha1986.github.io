@@ -9,7 +9,8 @@ body,html{
 
 
 .container{
-/*comment here*/
+/*container for the name, and defining background*/
+
 	background-image:linear-gradient(to right, rgba(220,220,220,0.95), rgba(220,220,220,0.95)), url("../img/bg.jpg");*/
 	width: 100%;
 	height: 100%;
@@ -19,7 +20,7 @@ body,html{
 }
 
 .center{
-
+/*helps to position the container in the center of the screen*/
 	text-align: center;
 	top:50%;
 	left: 50%;
@@ -28,20 +29,27 @@ body,html{
 -moz-transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%,-50%);
-
+/*osition has to be absolute */
 position: absolute;
 }
 
 .first-name{
+
+/*class for the first name*/
 
 	color: rgb(24,24,24);
 }
 
 .last-name{
 
+/*class for the last name */
+
 	color: rgb(152,152,152);
 }
 .wip-text{
+
+
+/*class for the "work in progress text"*/
 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 	font-size: 20px;
@@ -50,8 +58,23 @@ position: absolute;
 
 .job-title{
 
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
-	font-size: 30px;
 
-		color: rgb(152,152,152);
+/*class for the job title*/
+
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 20px;
+color: rgb(152,152,152);
+}
+
+.desctiption{
+
+	font-family: "Helvetica Neue Light";
+    font-size: 15px;
+    text-align: left;
+    color: rgb(113,113,113);
+    letter-spacing: 1px;
+    line-height: 21px;
+    width: 475px;
+}
+
 }
