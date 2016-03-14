@@ -167,6 +167,7 @@ default it wraps to next line*/
 .tabs .tab {
 	display: inline-block;
 	color: rgb(113, 113, 113);
+	cursor: pointer;
 }
 .tabs .tab.active {
 	color: #000;
