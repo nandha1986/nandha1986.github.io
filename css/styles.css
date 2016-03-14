@@ -1,188 +1,195 @@
-body,html{
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 
-	width: 100%;
-	height: 100%;
-	    margin: 0;
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
     padding: 0;
-
-	}
-
-
-.container{
-/*container for the name, and defining background*/
-
-	background-image:linear-gradient(to right, rgba(234,234,234,0.95), rgba(234,234,234,0.95)), url("../img/bg.jpg");*/
-	width: 100%;
-	height: 100%;
-	font-family: HelveticaNeue;
-	font-size: 40px;
-
 }
 
-.center{
-/*helps to position the container in the center of the screen*/
-	text-align: left;
-	top:50%;
-	left: 50%;
--o-transform: translate(-50%,-50%);
--ms-transform: translate(-50%,-50%);
--moz-transform: translate(-50%,-50%);
--webkit-transform: translate(-50%,-50%);
-transform: translate(-50%,-50%);
-/*osition has to be absolute */
-position: absolute;
+.container {
+    /*container for the name, and defining background*/
+    background-image: linear-gradient(to right, rgba(234, 234, 234, 0.95), rgba(234, 234, 234, 0.95)), url("../img/bg.jpg");
+    */ width: 100%;
+    height: 100%;
+    font-family: HelveticaNeue;
+    font-size: 40px;
 }
 
-.first-name{
-
-/*class for the first name*/
-
-	color: rgb(24,24,24);
+.center {
+    /*helps to position the container in the center of the screen*/
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /*osition has to be absolute */
+    position: absolute;
+    min-height: 400px;
 }
 
-.last-name{
-
-/*class for the last name */
-
-	color: rgb(152,152,152);
+.first-name {
+    /*class for the first name*/
+    color: rgb(24, 24, 24);
 }
 
-footer{
-
-
-/*class for the "work in progress text"*/
-
-	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";*/
-	font-size: 15px;
-	width: 100%;
-	color: rgb(113,113,113);
-	position: absolute;bottom: 0;
-	text-align: center;
-	margin-bottom: 40px;
-
-
-
+.last-name {
+    /*class for the last name */
+    color: rgb(152, 152, 152);
 }
 
-.job-title{
-
-
-/*class for the job title*/
-
-	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";*/
-	font-size: 18px;
-color: rgb(152,152,152);
+footer {
+    /*class for the "work in progress text"*/
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";*/
+    font-size: 15px;
+    width: 100%;
+    color: rgb(113, 113, 113);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.desctiption{
+.job-title {
+    /*class for the job title*/
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";*/
+    font-size: 18px;
+    color: rgb(152, 152, 152);
+}
 
-	/*font-family: "Helvetica Neue";*/
+.desctiption {
+    /*font-family: "Helvetica Neue";*/
     font-size: 15px;
     text-align: left;
-    color: rgb(113,113,113);
+    color: rgb(113, 113, 113);
     letter-spacing: .5px;
     line-height: 23px;
     width: 475px;
-    text-align: justify; 
-
-
+    text-align: justify;
 }
 
-.twitter{
-
-	background-image:url("../img/twitter.png");
-	background-size: 100%;
-	width: 34px;
-	height: 34px;
-	display: inline-block;
-	
-
+.twitter {
+    background-image: url("../img/twitter.png");
+    background-size: 100%;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
 }
 
-.linkedin{
-
-	background-image:url("../img/linkedin.png");
-	background-size: 100%;
-	width: 34px;
-	height: 34px;
-	display: inline-block;
-	
-
+.linkedin {
+    background-image: url("../img/linkedin.png");
+    background-size: 100%;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
 }
 
-
-
-.medium{
-/*since the bg image is 88*88 i have to give bg size as 100% to contain the image 
+.medium {
+    /*since the bg image is 88*88 i have to give bg size as 100% to contain the image
 in the div*/
-/*display inline help me to place the images next to each other otherwise by 
+    /*display inline help me to place the images next to each other otherwise by
 default it wraps to next line*/
+    background-image: url("../img/medium.png");
+    background-size: 100%;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+}
 
-	background-image:url("../img/medium.png");
-	background-size: 100%;
-	display: inline-block;
-	width: 34px;
-	height: 34px;
-}	
-
-.tumblr{
-/*since the bg image is 88*88 i have to give bg size as 100% to contain the image 
+.tumblr {
+    /*since the bg image is 88*88 i have to give bg size as 100% to contain the image
 in the div*/
-/*display inline help me to place the images next to each other otherwise by 
+    /*display inline help me to place the images next to each other otherwise by
 default it wraps to next line*/
-
-	background-image:url("../img/tumblr.png");
-	background-size: 100%;
-	display: inline-block;
-	width: 34px;
-	height: 34px;
-}	
-
-.coroflot{
-
-
-	background-image:url("../img/coroflot.png");
-	background-size: 100%;
-	display: inline-block;
-	width: 34px;
-	height: 34px;
-	
+    background-image: url("../img/tumblr.png");
+    background-size: 100%;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
 }
 
-.behance{
-
-
-	background-image:url("../img/behance.png");
-	background-size: 100%;
-	display: inline-block;
-	width: 34px;
-	height: 34px;
-	
+.coroflot {
+    background-image: url("../img/coroflot.png");
+    background-size: 100%;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
 }
 
-.social-media{
-
-margin-top: 10px;
-
-
+.behance {
+    background-image: url("../img/behance.png");
+    background-size: 100%;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
 }
 
-.links{
-	
+.social-media {
+    margin-top: 10px;
+}
+
+.links {
     display: inline-block;
     width: 150px;
     text-align: center;
 }
 
-.links .title{ 
-
-	/*font-family: "Helvetica Neue Light";*/
+.links .title {
+    /*font-family: "Helvetica Neue Light";*/
     font-size: 14px;
-    color: rgb(152,152,152);
+    color: rgb(152, 152, 152);
     display: inline-block;
     width: 150px;
-
 }
 
+.links a {
+    text-decoration: none;
+}
 
+.tabs li {
+	display: inline-block;
+}
 
+.tabs {
+	text-align: center;
+    font-size: 16px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+li.active {
+	padding: 2px;
+	border-bottom: 2px solid #aaa;
+}
+
+.hide {
+    display: none;
+}
+
+#projects ul {
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+#projects li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+#projects a {
+    font-size: 14px;
+    color: rgb(152, 152, 152);
+    text-decoration: none;
+}
