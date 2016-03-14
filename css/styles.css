@@ -74,6 +74,12 @@ footer {
     line-height: 23px;
     width: 475px;
     text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+.details {
+	padding-top: 20px;
 }
 
 .twitter {
@@ -158,6 +164,16 @@ default it wraps to next line*/
 	display: inline-block;
 }
 
+.tabs .tab {
+	display: inline-block;
+	color: rgb(113, 113, 113);
+}
+.tabs .tab.active {
+	color: #000;
+}
+.tabs .divider {
+	color: #C5C5C5;
+}
 .tabs {
 	text-align: center;
     font-size: 16px;
@@ -177,6 +193,10 @@ li.active {
 .hide {
     display: none;
 }
+.name {
+	display: inline-block;
+    margin-bottom: 20px;
+}
 
 #projects ul {
     margin-top: 5px;
@@ -186,10 +206,10 @@ li.active {
 #projects li {
     list-style-type: none;
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 #projects a {
     font-size: 14px;
-    color: rgb(152, 152, 152);
-    text-decoration: none;
+    color: rgb(113, 113, 113);
 }
